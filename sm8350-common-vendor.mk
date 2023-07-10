@@ -6,6 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sm8350-common
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_abr.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_enc.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/liblhdc.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/liblhdcBT_enc.so \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -40,6 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrc.so \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrcinterface.so \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_abr.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_enc.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib64/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/liblhdc.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib64/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/liblhdcBT_enc.so \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/sm8350-common/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
